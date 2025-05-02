@@ -25,19 +25,19 @@ class MainActivity : AppCompatActivity() {
 
         //displays the text in green when the app is run
         txtDisplay.text="""
-            Welcome to the Movie quiz app!
+            Welcome to the Mamma Mia quiz!
             The quiz is made up of 5 
             true or false questions based on 
-            well known movies.
+            the musical Mamma Mia.
             Press the start button to start the quiz.
         """.trimIndent()
 
         //switches to the movie page when the button is clicked
         btnStart.setOnClickListener{
-            val intent = Intent(this, Question1::class.java)
 
-            //start Question1, which will open a new screen
+            val intent = Intent (this, Question1::class.java)
             startActivity(intent)
+
         }
 
     }

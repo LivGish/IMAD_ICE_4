@@ -41,7 +41,7 @@
         android:layout_width="374dp"
         android:layout_height="77dp"
         android:gravity="center"
-        android:text="Question 1"
+        android:text="Heading"
         android:textColor="#101943"
         android:textSize="40sp"
         android:textStyle="bold"
