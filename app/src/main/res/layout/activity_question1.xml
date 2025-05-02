@@ -8,7 +8,7 @@
     tools:context=".Question1">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/wallpaper2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -17,12 +17,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/wallpaper" />
+        app:srcCompat="@drawable/wallpaper2" />
 
     <TextView
         android:id="@+id/txtDisplay2"
-        android:layout_width="272dp"
-        android:layout_height="230dp"
+        android:layout_width="333dp"
+        android:layout_height="224dp"
+        android:background="#88FFFFFF"
         android:gravity="center"
         android:text="Movie flashcards"
         android:textColor="#101943"
@@ -44,6 +45,7 @@
         android:textColor="#101943"
         android:textSize="40sp"
         android:textStyle="bold"
+        android:background="#88FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.486"

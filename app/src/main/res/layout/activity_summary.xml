@@ -16,13 +16,14 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/wallpaper" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/wallpaper2" />
 
     <TextView
         android:id="@+id/txtDisplay2"
-        android:layout_width="272dp"
-        android:layout_height="230dp"
+        android:layout_width="333dp"
+        android:layout_height="224dp"
+        android:background="#88FFFFFF"
         android:gravity="center"
         android:text="Movie flashcards"
         android:textColor="#101943"
@@ -33,23 +34,37 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.287" />
 
     <TextView
         android:id="@+id/txtHeading2"
         android:layout_width="374dp"
         android:layout_height="77dp"
         android:gravity="center"
-        android:text="Movie flashcards"
+        android:text="Trivia Summary"
         android:textColor="#101943"
         android:textSize="40sp"
         android:textStyle="bold"
+        android:background="#88FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024" />
+        app:layout_constraintVertical_bias="0.038" />
+
+    <Button
+        android:id="@+id/exitApp"
+        android:layout_width="173dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#101943"
+        android:text="Exit App"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
